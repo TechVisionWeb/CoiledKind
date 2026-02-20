@@ -1,0 +1,54 @@
+{
+        "articles": [
+            {
+                "title": "LCO Method: Beginner’s Guide to Styling Natural Hair",
+                "subtitle": "",
+                "dateCreated": "2018-01-25",
+                "datePublished": "2018-02-25",
+                "readTimeInMin": "2",
+                "dateModified": "2025-09-25",
+                "isPublished": "yes",
+                "url_slug_for_rtf": "",
+                "author": {
+                    "lastName": "Charisse",
+                    "firstName": "Jaleesa",
+                    "facebook": "https://www.facebook.com/JaleesaCharisse/",
+                    "instagram": "https://www.instagram.com/jaleesacharisse/",
+                    "youtube": "https://www.youtube.com/c/jaleesacharisse",
+                    "tiktok": "https://www.tiktok.com/@jaleesacharisse"
+                },
+                "publisher": {
+                    "name": "Ogle School"
+                },
+                "images": [
+                    {
+                        "name": "hair styling jars",
+                        "url" : "" 
+
+                    },
+                    {
+                        "name": "hair styling jars and bottles",
+                        "url" : ""
+                    }
+                ],
+
+                "videos":[
+
+                {
+                    "title":"LCO Method: Beginner’s Guide to Styling Natural Hair"
+                }
+
+                ]
+            }
+    ],
+    "publishers": [
+        {
+            "id": "2",
+            "name": "Byrdie"
+        },
+        {
+            "id": "3",
+            "name": "CoiledKind"
+        }
+    ]
+}

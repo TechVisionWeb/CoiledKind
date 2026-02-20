@@ -1,0 +1,980 @@
+main {
+    grid-area: main;
+    /* margin-top: 5px; */
+    /* box-shadow: 4px 2px 4px -1px #000000d4; */
+    margin-bottom: 5px;
+    width: 100%;
+    };
+  
+ 
+    .index .large-preview-section {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.83) 4px 2px 4px -1px;
+
+    .index .large-preview-section {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.83) 4px 2px 4px -1px;
+};
+
+
+    .title-container {
+    background: hsl(230.77deg 49.19% 63.73% / 85%);
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    text-align: center;
+    /* box-shadow: 4px 2px 4px -1px #000000d4; */
+};
+    
+.title-container {
+    background: hsl(230.77deg 49.19% 63.73% / 85%);
+    width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 4px 2px 4px -1px #000000d4;
+};
+}
+
+/* index.html css only*/
+
+.index picture {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    align-items: flex-end;
+    margin-top: 5px;
+    box-shadow: 4px 2px 4px -1px #000000d4;
+}
+
+.index .hero {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    /* margin-top: 5px; */
+}
+
+.index .hero__img {
+    width: 100%;
+    height: auto;
+    /* background: #FF8F009E; */
+    /* background: linear-gradient(90deg, rgb(158 96 203 / 47%) 62%, #b3d9f8 85%); */
+}
+
+
+.title-container {
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgb(193 148 224) 100%);
+    width: 100%;
+    height: fit-content;
+    padding: 22px;
+    text-align: center;
+    box-shadow: 4px 2px 4px -1px #000000d4;
+    margin: 5px auto;
+    margin-bottom: 0px;
+}
+
+
+
+.index .title-container__title,
+.title-container__sub-title {
+    display: block;
+    text-align: center;
+    font-family: "Annie Use Your Telescope", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: transparent;
+    width: 100%;
+    -webkit-text-stroke: 1px #000000;
+    background-image: linear-gradient(#ffffff, #ffffffa3);
+    color: black;
+    /* text-shadow: 4px -4px blue; */
+    background-clip: text;
+}
+
+h2.title-container__title.title-container__title--big {
+    /* text-shadow: 4px 0px blue; */
+}
+
+.index .hero__button-container {
+    position: absolute;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.index .hero__button {
+    width: 30px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-color: rgba(118, 43, 125, 1);
+    box-shadow: 4px 2px 4px -1px #000000d4;
+}
+
+.index .hero__blog-information {
+    color: white;
+    font-family: 'Dosis';
+    font-style: normal;
+    padding: 5px;
+ 
+    box-shadow: 4px 2px 4px -1px #000000d4;
+
+    } 
+
+.index .hero__sub-title,
+.index .hero__title {
+
+    font-family: 'Dosis';
+    font-style: normal;
+}
+
+.index .large-preview-section__blog-link-topic-and-date-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+}
+
+.index .hero__blog-link-topic-and-date-container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
+.index .hero__read-more-link,
+.index .large-preview-section__read-more-link {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 30px;
+    align-items: center;
+    font-family: 'dosis', sans-serif;
+    font-style: normal;
+}
+
+.index .hero__blog-topic-and-date-container,
+.index .large-preview-section__blog-topic-and-date-container {
+    display: flex;
+    flex-direction: column;
+    height: 2.5rem;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.index .large-preview-section__blog-topic-and-date-container {
+    color: white;
+    background-color: black;
+    font-family: 'dosis', sans-serif;
+    font-style: normal;
+    padding: 5px;
+    color: white;
+    height: 3rem;
+}
+
+
+
+.index .hero--hide {
+    display: none !important;
+}
+
+.index .blog-previews {
+    display: flex;
+    position: relative;
+    padding: 5px;
+    width: 101%;
+    height: fit-content;
+    justify-content: space-around;
+    /* background-color: rgb(243, 234, 234); */
+    /* margin-top: -93px; */
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.index .blog-previews__blog-preview {
+display: flex;
+position: relative;
+flex-direction: row;
+width: 26%;
+height: fit-content;
+box-shadow: 4px 2px 4px -1px #000000d4;
+}
+
+.index .blog-previews__blog-preview-title {
+    display: flex;
+    align-items: center;
+    font-family: 'Dosis';
+    font-style: normal;
+    Width: 50%;
+    min-width: 117px;
+    height: auto;
+    background-color: rgb(48, 10, 51);
+    color: white;
+    font-size: 1.2rem;
+    padding: 5px;
+    font-family: 'Dosis';
+    font-style: normal;
+}
+
+.index .blog-previews__blog-preview-img {
+    display: flex;
+    width: 191px;
+    /* height: 147px; */
+    background: linear-gradient(90deg, rgb(158 96 203 / 47%) 62%, #b3d9f8 85%);
+    --webkit-box-shadow: 4px 2px 4px -1px #000000d4;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+.index .blog-previews__blog-preview-img:hover,
+.large-preview-section__blog-preview-img:hover {
+    transform: scale(1.03);
+    z-index: 1;
+}
+
+.index .blog-previews__blog-preview-img {
+    max-width: 200px;
+    /* width: 33%; */
+}
+
+.index .large-preview-section__blog-preview-title {
+    background-color: rgb(48, 10, 51);
+    font-family: 'dosis';
+    font-style: 'normal';
+    color: white;
+    font-size: 1.6rem;
+}
+
+.index .large-preview-section__blog-preview-link {
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    height: fit-content;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+
+
+}
+
+.index .large-preview-section__blog-preview-img {
+    width: 100%;
+    opacity: 0.97;
+    z-index: 1;
+     background: linear-gradient(90deg, rgb(158 96 203 / 47%) 62%, #b3d9f8 85%);
+}
+
+.index .large-preview-sections-container {
+    display: flex;
+    font-family: "Annie Use Your Telescope", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-align: center;
+
+}
+
+.index .large-preview-section-overload-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: auto;
+}
+
+.index .large-preview-section-container {
+    background-color: white;
+    padding: 10px;
+}
+
+.index .large-preview-sections-container__title {
+    font-family: "Annie Use Your Telescope", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgb(193 148 224) 100%);
+    color: black;
+    text-align: center;
+    /* font-size: calc(2rem + 2vw); */
+    width: calc(100% - 5px);
+    /* padding: 11px; */
+    margin-bottom: 5px;
+}
+
+.index .large-preview-section__blog-preview-title {
+    padding: 5px;
+    text-align: left;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+h4 {
+    display: flex;
+    font-family: 'dosis';
+    font-size: calc(1rem + 2.5vw);
+    font-family: "Annie Use Your Telescope", serif;
+    /* width: -webkit-fill-available; */
+    /* flex-basis: 50%; */
+    /* line-height: 123%; */
+    /* margin-left: 1rem; */
+    margin-left: auto;
+    /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+    /* background: antiquewhite; */
+    align-content: center;
+     /* text-align: center; */
+    padding: 1rem;
+    /* background: white; */
+    color: black;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: calc(100% - 10px);
+}
+
+.website-section__pictureset-and-title {
+    display: flex;
+    width: fit-content;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff00;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 30px;
+    scroll-margin-left: 24px;
+    /* left: 42px; */
+}
+
+.index .large-preview-section__blog-preview-title ::-webkit-scrollbar-thumb:hover {
+    background: #22023d;
+}
+
+.index .large-preview-section {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    box-shadow: 4px 2px 4px -1px #000000d4;
+}
+
+
+
+
+/*** about and LCO only**/
+.website-section:not(.index) {
+    position: relative;
+}
+
+.website-section__pictureset,
+.hero__img {
+    width: 100%;
+    height: auto;
+    /* background: #ff7e07bd; */
+    
+}
+
+.lco .hero__img{
+    /* background-color: #ff7e0791; */
+}
+
+  
+.index .large-preview-section {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.83) 4px 2px 4px -1px;
+};
+
+
+picture.website-section__pictureset {
+    position: relative;
+}
+
+.website-section__pictureset.website-section__pictureset--about-page-gradient {
+    background: linear-gradient(45deg, #3023AE 0%, #FF0099 100%);
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    padding: 17px;
+    overflow: hidden;
+    left: 0px;
+    /* width: fit-content; */
+}
+
+.website-section__header3:not(.index) {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.518);
+    text-align: center;
+    min-width: 240px;
+    width: 100%;
+    /* min-height: 100px; */
+    /* height: 100%; */
+    text-align: center;
+    color: white;
+    font-size: calc(16px + 2vw);
+    letter-spacing: 3px;
+    font-family: Annie Use Your Telescope, serif;
+    /* background-color: rgb(0 0 0 / 54%); */
+    top: 10%;
+    padding: 1rem;
+}
+
+.website-section__header4:not(.index) {
+
+    font-size: 1.3rem;
+    font-family: 'dosis', "sans-serif";
+    align-items: center;
+
+
+
+}
+
+.website-section__pictureset:has(.index) {
+    display: flex;
+    margin-top: 1rem;
+    position: relative;
+}
+
+.website-section__pictureset.website-section__pictureset--about-page-gradient {
+    display: flex;
+    flex: 1 1 auto;
+    margin-top: 1rem;
+    position: relative;
+    flex-direction: row;
+}
+
+
+
+body:not(.index) .title-container__title--small {
+    font-size: clamp(3rem, 5vw, 4rem);
+    font-family: "Annie Use Your Telescope", serif;
+    color: black;
+    /* text-decoration: underline; */
+}
+
+body:not(.index) p {
+    font-family: 'dosis';
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+
+body:not(.index) .website-section {
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+box-shadow: 4px 2px 4px -1px #000000d4;
+
+background-color: white;
+
+margin-top: 5px;
+
+}
+
+body:not(.index) .website-section__img {
+    width: 100%;
+    position: relative;
+    /* height: 90%; */
+    min-width: 200px;
+    max-width: 400px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    /* background: linear-gradient(45deg,#3023AE 0%,#FF0099 100%); */
+    margin: 0 auto;
+    top: 42px;
+    /* left: 20px; */
+    /* margin-top: 1rem; */
+}
+
+body:not(.index) .website-section__picture-container {
+    flex-basis: 250px;
+}
+
+body:not(.index) .website-section__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    /* background-color: white; */
+}
+
+
+
+body:not(.index) .website-section__bullet-list {
+    list-style: square;
+    padding: 10px;
+    width: 90%;
+
+}
+
+body:not(.index) .website-section__bullet-list li {
+    padding: 10px;
+
+    font-family: 'dosis', "sans-serif";
+}
+
+.bold {
+    font-weight: 700;
+    position: relative;
+    display: inline;
+}
+
+figcaption {
+    font-family: 'dosis', sans-serif;
+}
+
+.filter-black {
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+@media only screen and (max-width: 300px) {
+
+    .title-container__title--big {
+        font-size: 2rem;
+
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    footer {
+        flex-direction: column;
+    }
+
+    .footer__section--social-and-subscribe {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .footer__section--social-and-subscribe-form {
+        /* margin-left: 20px; */
+        margin-top: 20px;
+    }
+
+    /** index.html css only*/
+
+    .index .title-container__title--big {
+        font-size: 2.5rem;
+
+    }
+
+    .index .title-container__sub-title {
+        font-size: 1.2rem;
+    }
+
+    /** index.html css only*/
+
+    .index .title-container__title--big {
+        font-size: calc(1rem + 21vw);
+        /* color: #ffffffa6; */
+        /* background: #000000; */
+    }    
+        
+    
+        .index .title-container__title--big {
+        font-size: 5.5rem;
+        color: black;
+        /* outline: 5px dotted green; */
+        -webkit-text-stroke: 2px black;
+        /* color: white; */
+};
+        .index .title-container__title--big {
+        font-size: 8.5rem;
+        /* color: white; */
+        /* outline: 5px dotted green; */
+        -webkit-text-stroke: 2px black;
+        color: white;
+};
+        .index .title-container__title--big {
+        font-size: 8.5rem;
+        /* color: white; */
+        /* outline: 5px dotted green; */
+        -webkit-text-stroke: 2px black;
+        color: white;
+};
+        .index .title-container__title--big {
+        font-size: 8.5rem;
+        /* color: white; */
+        /* outline: 5px dotted green; */
+        -webkit-text-stroke: 2px black;
+        color: white;
+};
+        .index .title-container__title--big {
+        font-size: 8.5rem;
+        /* color: white; */
+        /* outline: 5px dotted green; */
+        -webkit-text-stroke: 2px black;
+        color: white;
+};
+        .index .title-container__title--big {
+        font-size: 8.5rem;
+        /* color: white; */
+        /* outline: 5px dotted green; */
+        -webkit-text-stroke: 2px black;
+        color: white;
+};
+        
+    .index .title-container__title--big {
+        font-size: 8.5rem;
+        /* color: white; */
+        /* outline: 5px dotted green; */
+        -webkit-text-stroke: 2px black;
+        color: white;
+ 
+    }
+
+    .index .title-container__sub-title {
+        font-size: 2rem;
+        color: black;
+    }
+
+   
+    .index .hero__blog-information,
+    .index .hero__title-information {
+        width: 100%;
+        background-color: rgb(48, 10, 51);
+
+     }
+
+    .index .hero__title-information {
+        padding: 3px;
+
+    }
+
+    .index .hero__title {
+        font-size: 1.2rem;
+    }
+
+
+    .index .hero__sub-title {
+        margin-top: 10px;
+        font-size: 1.0rem;
+    }
+
+    .index .hero__blog-link-topic-and-date-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    /**** index only    **/
+    .index .blog-previews {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+        /* width: 100%; */
+    }
+
+    .index .blog-previews__blog-preview {
+        flex-direction: row;
+        align-items: center;
+        margin-top: 10px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .index .blog-previews__blog-preview-title {
+      height: 148px;
+      /* max-width: 139px; */
+      width: 40%;
+      box-shadow: 4px 2px 4px -1px #000000d4;
+    }
+
+    .index .blog-previews__blog-preview-img {
+    box-shadow: 4px 2px 4px -1px #000000d4;
+    width: 100%;
+    }
+
+
+    .large-preview-sections-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        padding: 20px;
+
+
+    }
+
+    .large-preview-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .large-preview-section__blog-preview-title {
+        width: 100%;
+        background-color: rgba(4, 4, 104, 0.9);
+        color: white;
+
+    }
+
+    .index .large-preview-section__blog-preview-link {
+        width: 100%;
+    }
+
+    .index .large-preview-sections-container__title {
+        width: 100%;
+        box-shadow: 4px 2px 4px -1px #000000d4;
+        font-size: calc(2rem + 2vw);
+    }
+
+
+
+
+
+}
+
+@media only screen and (min-width: 501px) {
+    /** index.html css only*/
+
+    .index .title-container__title--big {
+        font-size: 6.5rem;
+        /* color: white; */
+        /* outline: 5px dotted green; */
+        -webkit-text-stroke: 2px black;
+        /* color: black; */
+    }
+
+
+
+    .index .title-container__sub-title {
+        font-size: clamp(2rem, 4vw, 3rem);
+        color: black;
+        color: black;
+    }
+
+    .index .hero__blog-information {
+position: absolute;
+top: 10px;
+left: 5px;
+width: 360px;
+background-color: rgba(80, 29, 85, 0.8)
+}
+
+    .index .hero__title-information {
+        width: 100%;
+    }
+
+
+    .index .hero__title-information {
+        padding: 3px;
+    }
+
+    .index .hero__title {
+        font-size: 1.5rem;
+    }
+
+
+    .index .hero__sub-title {
+        margin-top: 5px;
+        font-size: 1.2rem;
+    }
+
+    .index .hero {
+        position: relative;
+        width: 100%;
+    }
+
+
+    .index .hero__blog-link-topic-and-date-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+
+    .index .large-preview-sections-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .index .large-preview-section-container {
+        margin: 0 auto;
+        align-items: flex-end;
+        display: flex;
+        justify-content: space-between;
+        min-width: 900px;
+        width: 100%;
+    }
+
+
+    .index .large-preview-sections-container__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 4px 2px 4px -1px #000000d4;
+        font-size:  4rem;
+    }
+
+    .index .large-preview-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .index .large-preview-section {
+        width: 30%;
+    }
+
+
+
+
+
+
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1099px) {
+
+    .footer__section--social-and-subscribe {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: start;
+    }
+
+    /**** index only    **/
+    .index .blog-previews {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        /* margin-top: -80px; */
+    }
+
+    .index .blog-previews__blog-preview {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        box-shadow: 4px 2px 4px -1px #000000d4;
+        /* height: 149px; */
+        width: 151px;
+    }
+
+    .index .blog-previews__blog-preview-title {
+        position: absolute;
+        max-width: 188px;
+        height: 100%;
+        /* bottom: -5px; */
+        background-color: rgb(48 10 51 / 61%);
+        width: 100%;
+    }
+
+    .index .blog-previews__blog-preview-img {
+        width: 150px;
+        /* height: 153px; */
+        z-index: 1;
+    }
+
+}
+
+@media only screen and (max-width: 735px) {
+    
+    
+
+    /*** about **/
+    body:not(.index) .website-section {
+
+        flex-direction: column;
+
+    }
+
+    .website-section__developer-intro {
+        flex-direction: column;
+        position: absolute;
+        color: white;
+        width: fit-content;
+        left: 25%;
+        top: 5%;
+    }
+
+
+    .filter-black {
+        background-color: #0000001b;
+    }
+
+    .website-section__pictureset-and-title {
+        flex-direction: column-reverse;
+
+
+    }
+}
+
+@media screen and (min-width: 736px){
+    .website-section__developer-intro {
+
+font-size: 2.6rem;
+}
+}
+
+@media only screen and (min-width: 900px) {
+    .index .large-preview-sections-container {
+
+        flex-direction: column;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1100px) {
+    .wrapper {
+grid-template-rows: 40px auto auto;
+grid-auto-columns: 100%;
+width: calc(100% - 5px);
+}
+
+    header {
+        width: inherit;
+        max-width: inherit;
+        min-width: inherit;
+    }
+
+
+}
